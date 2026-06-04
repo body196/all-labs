@@ -1,0 +1,367 @@
+[
+    {
+        "id": "48b99859f4e3b739",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "67a22fe62f052325",
+        "type": "group",
+        "z": "48b99859f4e3b739",
+        "name": "Table",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "f24dabfdfcdc5aae",
+            "3fb126c1ecda9b18",
+            "f1f1d119995242a6"
+        ],
+        "x": 234,
+        "y": 5059,
+        "w": 432,
+        "h": 82
+    },
+    {
+        "id": "5fe1720c3d284716",
+        "type": "ui-base",
+        "name": "My Dashboard",
+        "path": "/dashboard",
+        "appIcon": "",
+        "includeClientData": true,
+        "acceptsClientConfig": [
+            "ui-notification",
+            "ui-control",
+            "ui-template"
+        ],
+        "showPathInSidebar": false,
+        "headerContent": "page",
+        "navigationStyle": "default",
+        "titleBarStyle": "default",
+        "showReconnectNotification": true,
+        "notificationDisplayTime": 1,
+        "showDisconnectNotification": true,
+        "allowInstall": false
+    },
+    {
+        "id": "ab2be4107e7ca637",
+        "type": "ui-theme",
+        "name": "Default Theme",
+        "colors": {
+            "surface": "#ffffff",
+            "primary": "#0094ce",
+            "bgPage": "#eeeeee",
+            "groupBg": "#ffffff",
+            "groupOutline": "#cccccc"
+        },
+        "sizes": {
+            "density": "default",
+            "pagePadding": "12px",
+            "groupGap": "12px",
+            "groupBorderRadius": "4px",
+            "widgetGap": "12px"
+        }
+    },
+    {
+        "id": "2e09057685d0eab2",
+        "type": "ui-group",
+        "name": "Indicators",
+        "page": "",
+        "width": "9",
+        "height": 1,
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "885d92cb91c4397c",
+        "type": "ui-theme",
+        "name": "Default Theme",
+        "colors": {
+            "surface": "#f7f7f7",
+            "primary": "#408080",
+            "bgPage": "#eeeeee",
+            "groupBg": "#e8e8e8",
+            "groupOutline": "#cccccc"
+        },
+        "sizes": {
+            "density": "default",
+            "pagePadding": "12px",
+            "groupGap": "12px",
+            "groupBorderRadius": "4px",
+            "widgetGap": "12px"
+        }
+    },
+    {
+        "id": "5f15e5186f4b574d",
+        "type": "ui-page",
+        "name": "Widgets",
+        "ui": "5fe1720c3d284716",
+        "path": "/widgets",
+        "icon": "home",
+        "layout": "grid",
+        "theme": "885d92cb91c4397c",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 1,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "7760f48e1c1c42c6",
+        "type": "ui-group",
+        "name": "Controls",
+        "page": "5f15e5186f4b574d",
+        "width": "14",
+        "height": "3",
+        "order": 2,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "c85ea511bec3c000",
+        "type": "ui-group",
+        "name": "Numbers",
+        "page": "5f15e5186f4b574d",
+        "width": "1",
+        "height": "1",
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "97fbd9780cb018ca",
+        "type": "ui-group",
+        "name": "DataGroup1",
+        "page": "7794ab4e95b56c67",
+        "width": "13",
+        "height": "3",
+        "order": 1,
+        "showTitle": false,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "7794ab4e95b56c67",
+        "type": "ui-page",
+        "name": "Data",
+        "ui": "5fe1720c3d284716",
+        "path": "/pagedata",
+        "icon": "table",
+        "layout": "grid",
+        "theme": "885d92cb91c4397c",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 2,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "f24dabfdfcdc5aae",
+        "type": "ui-table",
+        "z": "48b99859f4e3b739",
+        "g": "67a22fe62f052325",
+        "group": "97fbd9780cb018ca",
+        "name": "",
+        "label": "Exapmle table",
+        "order": 1,
+        "width": "0",
+        "height": "0",
+        "maxrows": "0",
+        "autocols": false,
+        "showSearch": false,
+        "deselect": true,
+        "selectionType": "none",
+        "columns": [
+            {
+                "title": "Row",
+                "key": "",
+                "keyType": "key",
+                "type": "row",
+                "width": "",
+                "align": "start"
+            },
+            {
+                "title": "My Column",
+                "key": "columnA",
+                "keyType": "key",
+                "type": "text",
+                "width": "",
+                "align": "start"
+            },
+            {
+                "title": "My Other Column",
+                "key": "columnB",
+                "keyType": "key",
+                "type": "text",
+                "width": "",
+                "align": "start"
+            },
+            {
+                "title": "URL",
+                "key": "link",
+                "keyType": "key",
+                "type": "link",
+                "width": "300px",
+                "align": "start"
+            },
+            {
+                "title": "Progress",
+                "key": "progress",
+                "keyType": "key",
+                "type": "progress",
+                "width": "",
+                "align": "start"
+            },
+            {
+                "title": "Trend",
+                "key": "array",
+                "keyType": "key",
+                "type": "sparkline-trend",
+                "width": "",
+                "align": "start"
+            },
+            {
+                "title": "Bar",
+                "key": "array",
+                "keyType": "key",
+                "type": "sparkline-bar",
+                "width": "",
+                "align": "start"
+            },
+            {
+                "title": "Tick/Cross",
+                "key": "boolean",
+                "keyType": "key",
+                "type": "tickcross",
+                "width": "",
+                "align": "start"
+            },
+            {
+                "title": "Spot",
+                "key": "color",
+                "keyType": "key",
+                "type": "color",
+                "width": "",
+                "align": "center"
+            }
+        ],
+        "mobileBreakpoint": "sm",
+        "mobileBreakpointType": "defaults",
+        "action": "replace",
+        "className": "",
+        "x": 560,
+        "y": 5100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3fb126c1ecda9b18",
+        "type": "inject",
+        "z": "48b99859f4e3b739",
+        "g": "67a22fe62f052325",
+        "name": "",
+        "props": [
+            {
+                "p": "progress1",
+                "v": "$round($random() * 100.0, 0)",
+                "vt": "jsonata"
+            },
+            {
+                "p": "progress2",
+                "v": "$round($random() * 100.0, 0)",
+                "vt": "jsonata"
+            }
+        ],
+        "repeat": "2",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 330,
+        "y": 5100,
+        "wires": [
+            [
+                "f1f1d119995242a6"
+            ]
+        ]
+    },
+    {
+        "id": "f1f1d119995242a6",
+        "type": "template",
+        "z": "48b99859f4e3b739",
+        "g": "67a22fe62f052325",
+        "name": "",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "[\n    {\n        \"columnA\": \"Hello\",\n        \"columnB\": \"World\",\n        \"link\": \"https://news.bbc.co.uk\",\n        \"progress\": {{progress1}},\n        \"color\": \"#FF0000\",\n        \"array\": [\n            6,\n            7,\n            9,\n            2,\n            4\n        ],\n        \"boolean\": true\n    },\n    {\n        \"columnA\": \"Hey\",\n        \"columnB\": \"Globe\",\n        \"link\": \"https://flowfuse.com\",\n        \"progress\": {{progress2}},\n        \"color\": \"#24aa69\",\n        \"array\": [\n            1,\n            3,\n            6,\n            3,\n            5\n        ],\n        \"boolean\": false\n    }\n]",
+        "output": "json",
+        "x": 435,
+        "y": 5100,
+        "wires": [
+            [
+                "f24dabfdfcdc5aae"
+            ]
+        ],
+        "l": false
+    }
+]
