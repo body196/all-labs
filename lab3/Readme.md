@@ -1,19 +1,19 @@
-![image-20260516113917357](C:\Users\smola\all labs\alllabs\lab3\media\image-20260516113917357.png)
+![image-20260516113917357](media/image-20260516113917357.png)
 
-![image-20260516113926761](C:\Users\smola\all labs\alllabs\lab3\media\image-20260516113926761.png)
+![image-20260516113926761](media/image-20260516113926761.png)
 
-![image-20260516113937550](C:\Users\smola\all labs\alllabs\lab3\media\image-20260516113937550.png)
+![image-20260516113937550](media/image-20260516113937550.png)
 
-![image-20260516113947385](C:\Users\smola\all labs\alllabs\lab3\media\image-20260516113947385.png)
+![image-20260516113947385](media/image-20260516113947385.png)
 
-![image-20260516113958887](C:\Users\smola\all labs\alllabs\lab3\media\image-20260516113958887.png)
+![image-20260516113958887](media/image-20260516113958887.png)
 
-![image-20260516114010497](C:\Users\smola\all labs\alllabs\lab3\media\image-20260516114010497.png)
+![image-20260516114010497](media/image-20260516114010497.png)
 
-![image-20260516114022265](C:\Users\smola\all labs\alllabs\lab3\media\image-20260516114022265.png)
+![image-20260516114022265](media/image-20260516114022265.png)
 
 
 
-![image-20260602183104006](C:\Users\smola\all labs\alllabs\lab3\media\image-20260602183104006.png)
+![image-20260602183104006](media/image-20260602183104006.png)
 
-![image-20260602183117925](C:\Users\smola\all labs\alllabs\lab3\media\image-20260602183117925.png)
+![image-20260602183117925](media/image-20260602183117925.png)
